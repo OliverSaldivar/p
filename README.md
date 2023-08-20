@@ -12,4 +12,4 @@
     #_p03_AreaTriangulo: Crear un codigo que calcule el area de un triangulo.
 
 # Actividad 4
-    #_p04_PagaTrabajador: Crear un codigo que calcule la paga de un trabajador, disminuyendo los impuestos de raiz.
+    #_p04_PagaTrabajador: Crear un codigo que calcule la paga de un trabajador, disminuyendo los impuestos de raiz. 
