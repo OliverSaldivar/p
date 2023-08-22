@@ -13,3 +13,6 @@
 
 # Actividad 4
     #_p04_PagaTrabajador: Crear un codigo que calcule la paga de un trabajador, disminuyendo los impuestos de raiz. 
+
+# Actividad 5
+    #_p05_OperacionesMatematicas: 
