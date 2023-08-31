@@ -1,15 +1,16 @@
-// Calcula fuerza, masa, y aceleración de acuerdo a la segunda ley de newton
+// Pedido de pizzas
 
 import java.util.Scanner;
 
-import javax.rmi.CORBA.Stub;
+
 
 public class _p36_CompraPizza {
     public static void main(String[] args) {
         float p, m, t, d;
         char op;
         Scanner obj = new Scanner(System.in);
-
+        float a=0.85f;
+        float b=0.15f;
         System.out.println("pedido de pizza");
 
         System.out.println("[C]hica ");
@@ -28,22 +29,22 @@ public class _p36_CompraPizza {
                 m = obj.nextFloat();
                 p = m*5;
                 if (p>2000){
-                   t=p*0.85;
-                   d=p*0.15;
-                    System.out.println("Usted esta comparando pizzas chicas\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                   t=p*a;
+                   d=p*b;
+                    System.out.println("Usted esta comparando pizzas chicas ");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }
                 else if (p<2000){
                    d=0;
                    t=p;
-                    System.out.println("Usted esta comparando pizzas chicas\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su compra sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                    System.out.println("Usted esta comparando pizzas chicas ");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }
             }
         else if (op == 'M') {
@@ -52,22 +53,22 @@ public class _p36_CompraPizza {
                 m = obj.nextFloat();
                 p = m*10;
                 if (p>2000){
-                   t=p*0.85;
-                   d=p*0.15;
-                    System.out.println("Usted esta comparando pizzas medianas\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                   t=p*a;
+                   d=p*b;
+                    System.out.println("Usted esta comparando pizzas medianas");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }
                 else if (p<2000){
                    d=0;
                    t=p;
-                    System.out.println("Usted esta comparando pizzas medinas\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su compra sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                    System.out.println("Usted esta comparando pizzas medinas");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }
             }
         else if (op == 'G') {
@@ -76,22 +77,22 @@ public class _p36_CompraPizza {
                 m = obj.nextFloat();
                 p = m*15;
                 if (p>2000){
-                    t=p*0.85;
-                    d=p*0.15;
-                    System.out.println("Usted esta comparando pizzas grandes\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                    t=p*a;
+                    d=p*b;
+                    System.out.println("Usted esta comparando pizzas grandes");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }
                 else if (p<2000){
                    d=0;
                     t=p;
-                    System.out.println("Usted esta comparando pizzas grandes\n");
-                    System.out.println("Esta comprando" +m+ "pizzas");
-                    System.out.println("El total de su compra sin descuento es" +p);
-                    System.out.println("Su descuento es de" +d);
-                    System.out.println("Su total es de" +t);
+                    System.out.println("Usted esta comparando pizzas grandes");
+                    System.out.println("Esta comprando " +m+ " pizzas");
+                    System.out.println("El total de su compra sin descuento es " +p);
+                    System.out.println("Su descuento es de " +d);
+                    System.out.println("Su total es de " +t);
                 }        
             }
         else{
