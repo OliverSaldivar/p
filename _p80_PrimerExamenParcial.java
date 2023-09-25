@@ -24,7 +24,7 @@ public class _p80_PrimerExamenParcial {
             int edad = Integer.parseInt(scanner.nextLine());
 
             if (edad < 18) {
-                System.out.println("Solo mayores de edad pueden participarchao bai");
+                System.out.println("Solo mayores de edad pueden participar chao bai");
                 continue;
             }
 
@@ -72,8 +72,7 @@ public class _p80_PrimerExamenParcial {
             }
         }
 
-        System.out.println("\n--- Resultados ---");
-        System.out.println("Total de Alumnos: " + totalAlumnos);
+        System.out.println("\nTotal de Alumnos: " + totalAlumnos);
         System.out.println("Total de Docentes: " + totalDocentes);
         System.out.println("Total de Trabajadores: " + totalTrabajadores);
         System.out.println("Total de Hombres en general: " + totalHombres);
@@ -81,15 +80,13 @@ public class _p80_PrimerExamenParcial {
         System.out.println("Total de todos los participantes: " + totalParticipantes);
         System.out.println("Promedio de la edad de todos los participantes: " + (totalEdad / totalParticipantes));
 
-        System.out.println("\n--- Totales de Dinero ---");
-        System.out.println("Total dinero recaudado de Alumnos: " + totalDineroAlumnos);
+        System.out.println("\nTotal dinero recaudado de Alumnos: " + totalDineroAlumnos);
         System.out.println("Total dinero recaudado de Docentes: " + totalDineroDocentes);
         System.out.println("Total dinero recaudado de Trabajadores: " + totalDineroTrabajadores);
         System.out.println("Total dinero en general: " + totalDineroGeneral);
 
-        System.out.println("\n--- Mensaje final ---");
         if (totalDineroGeneral < 100) {
-            System.out.println("El evento concluye con ganancias BAJAS");
+            System.out.println("\nEl evento concluye con ganancias BAJAS");
         } else if (totalDineroGeneral < 200) {
             System.out.println("El evento concluye con ganancias MODERADAS");
         } else {
